@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Daniel Ferreira Ibanez</title>
+  <meta name="description"
+    content="Portfólio de Juan Daniel Ferreira Ibanez, desenvolvedor e pesquisador multidisciplinar." />
+  <meta name="author" content="Juan Daniel Ferreira Ibanez" />
+  <link rel="shortcut icon" href="assets/perfil.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="main-header">
+    <div class="logo-section">
+      <img src="assets/perfil.png" alt="Foto de perfil de Juan Ibanez" class="avatar" />
+      <h1 class="avatar-text">Juan Daniel Ferreira Ibanez</h1>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <!-- 🔹 SLOT onde o switch será montado quando o menu abrir -->
+      <div class="theme-slot" id="themeSlotNav"></div>
+
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#educacao">Educação</a></li>
+
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contatos">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Botão de menu (hambúrguer) -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+
+    <!-- 🔹 SLOT original do switch no header -->
+    <div class="theme-slot" id="themeSlotHeader">
+      <div class="theme-toggle" id="themeToggleWrapper">
+        <label class="theme-switch" title="Alternar tema">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="intro" class="intro-section">
+      <div class="intro-background">
+        <img src="assets/background.png" alt="Imagem de fundo" class="background-img" />
+      </div>
+
+      <div class="intro-content">
+        <img src="assets/perfil.png" alt="Foto de perfil de Juan Ibanez" class="intro-avatar" />
+        <h1 class="intro-name">Juan Daniel Ferreira Ibanez</h1>
+      </div>
+    </section>
+
+    <section id="bio" class="bio">
+      <div class="intro-wrapper">
+        <aside class="intro-bio">
+          <p><strong>Olá, sou Juan Ibanez!</strong> Um programador multidisciplinar que mora em São Luís - MA. Com mais
+            de 5 anos de carreira, encontrei meu propósito em criar soluções inteligentes que unem tecnologia,
+            eficiência e inovação. Tenho experiência em backend, frontend e integração de sistemas, focando em
+            desempenho, segurança e usabilidade. Minha paixão é transformar ideias complexas em aplicações funcionais
+            e escaláveis que impactam positivamente.</p>
+        </aside>
+
+        <div class="intro-photo">
+          <img src="assets/foto-apresentacao.png" alt="Foto de Juan Ibanez em apresentação de artigo no SBSE 2025" />
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <h2>👨‍💻 Sobre mim</h2>
+      <p>Sou um pensador criativo, solucionador de problemas e eterno aprendiz, sempre explorando novas tecnologias e
+        aprimorando minhas habilidades em programação e engenharia de software. Quando não estou escrevendo código, você
+        pode me encontrar experimentando novas ideias, estudando sobre inteligência artificial ou explorando projetos
+        que unem inovação e impacto real.</p>
+    </section>
+
+    <section id="experiencia" class="section">
+      <h2>💼 Experiência</h2>
+      <article>
+        <h3>Pesquisador - INEOF (Instituto Nacional de Energias Oceânicas e Fluviais)</h3>
+        <p><strong>UFMA – Universidade Federal do Maranhão | Jun. 2023 – Atual | São Luís, MA (Presencial)</strong></p>
+        <ul>
+          <li>Desenvolvimento de pesquisas aplicadas na área de <strong>Engenharia Elétrica e Ciência da
+              Computação</strong>, com foco em <strong>engenharia de software, modelagem dirigida a modelos
+              (MDE)</strong> e <strong>arquiteturas Data Lakehouse</strong> para energias renováveis.</li>
+          <li>Participação em projetos de inovação tecnológica e integração de sistemas inteligentes para coleta e
+            análise de dados de sensores ambientais (LIDAR, SODAR, ADCP).</li>
+          <li>Atuação em ambiente <strong>Linux</strong>, utilizando linguagens como <strong>Go</strong>,
+            <strong>Python</strong> e <strong>Java</strong>, com ênfase em automação, análise de dados e aplicações de
+            machine learning.
+          </li>
+          <li>Colaboração com pesquisadores de universidades parceiras (UFRJ, UFSC, UNIFEI, UFPA) em projetos
+            financiados por órgãos de fomento nacionais (CNPq, CAPES, FAPEMA).</li>
+        </ul>
+      </article>
+      <br>
+      <hr> <br>
+
+      <article>
+        <h3>Co-Fundador - D&R Técnica | Out. 2018 – Jul. 2021 | São Luís, MA</h3>
+        <ul>
+          <li>Responsável pela criação, gestão e operação da empresa, atuando nas áreas de administração, contabilidade,
+            marketing e relacionamento com clientes.</li>
+          <li>Concepção e registro da identidade visual e marca D&R Técnica, incluindo logotipo, comunicação
+            institucional e posicionamento de mercado.</li>
+          <li>Elaboração de propostas comerciais, gestão financeira, emissão de notas fiscais e acompanhamento contábil.
+          </li>
+          <li>Implementação de estratégias de crescimento que resultaram na expansão da base de clientes e
+            fortalecimento da marca no setor local.</li>
+          <li>Supervisão de projetos técnicos.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="educacao" class="section">
+      <h2>🎓 Educação</h2>
+
+      <!-- Mestrado -->
+      <article class="education-item">
+        <div class="education-header">
+          <img src="assets/ufma-logo.jpeg" alt="UFMA Logo" class="education-logo">
+          <h3>Mestrado em Engenharia Elétrica – UFMA</h3>
+        </div>
+        <p><strong>Início em ago. 2023 | Previsão de conclusão – jan. 2026</strong></p>
+        <ul>
+          <li>Área de Concentração: Ciência da Computação</li>
+          <li>Linhas de Pesquisa: Engenharia de Software e Engenharia Dirigida a Modelos (MDE)</li>
+          <li>Principais Competências: UML, Práticas de Engenharia de Software, Programação, Modelagem de Dados, Big
+            Data</li>
+        </ul>
+      </article>
+
+      <br>
+      <hr><br>
+
+      <!-- Pós-graduação -->
+      <article class="education-item">
+        <div class="education-header">
+          <img src="assets/estacio_logo.jpeg" alt="Estácio Logo" class="education-logo">
+          <h3>Pós-graduação Lato Sensu em Engenharia de Software – Estácio</h3>
+        </div>
+        <p><strong>jan. 2023 – dez. 2023</strong></p>
+        <ul>
+          <li>Nota Final: <strong>9,60</strong></li>
+          <li>Disciplinas: Qualidade de Software, Projeto e Implementação OO, Gerenciamento de Software, SOA, Web
+            Services, Otimização de BD, Segurança da Informação.</li>
+          <li>Competências: HTML, CSS, Gestão de Projetos, Arquitetura de Software</li>
+        </ul>
+      </article>
+
+      <br>
+      <hr><br>
+
+      <!-- Bacharelado -->
+      <article class="education-item">
+        <div class="education-header">
+          <img src="assets/logo-undb.jpeg" alt="UNDB Logo" class="education-logo">
+          <h3>Bacharelado em Sistemas de Informação – UNDB</h3>
+        </div>
+        <p><strong>fev. 2019 – dez. 2022</strong></p>
+        <ul>
+          <li>Ênfase em Tecnologia da Informação</li>
+          <li>Competências: Python, Git, Habilidades Analíticas, Liderança, Gestão de Projetos e Desenvolvimento de
+            Software</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="licencas" class="section">
+      <h2>🏅 Licenças e certificados</h2>
+      <article>
+        <h3>Programa Oracle Next Education F2 T7 - Back-End | Alura | dez. 2024</h3>
+        <ul>
+          <li>Programa de capacitação profissional em parceria com a Oracle.</li>
+          <li>Foco em desenvolvimento <strong>Back-End</strong>, com ênfase em <strong>Node.js</strong>,
+            <strong>Java</strong>, <strong>SQL</strong> e <strong>boas práticas de programação</strong>.
+          </li>
+          <li><strong>Código da credencial:</strong> bb45a51c-f048-433b-a946-1907d0a7af4f</li>
+          <li><a href="https://cursos.alura.com.br/program/certificate/bb45a51c-f048-433b-a946-1907d0a7af4f?lang"
+              target="_blank">Clique aqui para exibir o certificado!</a></li>
+        </ul>
+      </article>
+      <br>
+      <hr> <br>
+      <article>
+        <h3>Certificado Profissional de Análise de Dados do Google | Coursera | jan. 2023</h3>
+        <ul>
+          <li>Certificação internacional voltada à <strong>Análise de Dados</strong> e <strong>Business
+              Intelligence</strong>.</li>
+          <li>Conteúdos principais: limpeza e transformação de dados, uso de <strong>planilhas</strong>,
+            <strong>SQL</strong>, <strong>R</strong> e visualização de dados.
+          </li>
+          <li><a href="https://www.credly.com/badges/a1dbe5ec-f045-4995-b4c6-a215d58d2748/linked_in_profile"
+              target="_blank">Clique aqui para exibir a credencial!</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projetos" class="section">
+      <h2>🚀 Projetos</h2>
+      <article>
+        <h3>Aplicação Go Finance</h3>
+        <ul>
+          <li>Sistema web full stack desenvolvido com foco em gestão financeira inteligente, permitindo o controle de
+            receitas, despesas e relatórios personalizados.</li>
+          <li>Implementado utilizando Golang (backend), PostgreSQL (banco de dados) e Next.js (frontend).</li>
+          <li>Disponível em: <a href="https://github.com/Juan-Ibanezdf/gofinance"
+              target="_blank">github.com/Juan-Ibanezdf/gofinance</a></li>
+        </ul>
+      </article>
+      <br>
+      <hr> <br>
+      <article>
+        <h3>Dev Juan Link Tree</h3>
+        <ul>
+          <li>Página centralizada que conecta projetos, portfólio e redes sociais como desenvolvedor, com design simples
+            e estilizado.</li>
+          <li>Implementado com HTML5, CSS3 e JavaScript, hospedado via GitHub Pages.</li>
+          <li>Disponível em: <a href="https://dev-juan-ibanez.github.io/dev-juan-link-tree/"
+              target="_blank">dev-juan-ibanez.github.io/dev-juan-link-tree</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2>🔨 Habilidades</h2>
+      <ul>
+        <li>Desenvolvimento <strong>Back End</strong> (Node.js, Golang, Python);</li>
+        <li>Banco de dados (<strong>PostgreSQL</strong>, MySQL, SQLite);</li>
+        <li><strong>Front End</strong> (React.js, TypeScript, Vite);</li>
+        <li><strong>Machine Learning</strong> aplicado a dados e sistemas inteligentes;</li>
+        <li><strong>Metodologias Ágeis</strong> (Scrum);</li>
+        <li><strong>Design de Interfaces (UI)</strong> e <strong>Experiência do Usuário (UX);</strong></li>
+        <li>Ferramentas de produtividade (Excel, PowerPoint, Word);</li>
+        <li><strong>Sistemas Operacionais:</strong> Mac OS, Windows, Linux;</li>
+        <li><strong>Prototipagem</strong> e wireframes.</li>
+      </ul>
+    </section>
+
+    <section id="contatos" class="section">
+      <h2>📬 Contatos</h2>
+      <p>Vamos criar algo incrível juntos! Fale comigo em:</p>
+
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:dev.juan.ibanez@gmail.com" target="_blank" class="contact-item">
+            <img src="assets/gmail.png" alt="Gmail Logo" class="contact-logo">
+            <span>E-mail: dev.juan.ibanez@gmail.com</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/juan-ibanez-df/" target="_blank" class="contact-item">
+            <img src="assets/linkedin.png" alt="LinkedIn Logo" class="contact-logo">
+            <span>LinkedIn: www.linkedin.com/in/juan-ibanez-df/</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/dev-juan-ibanez" target="_blank" class="contact-item">
+            <img src="assets/github.png" alt="GitHub Logo" class="contact-logo">
+            <span>Portfólio: github.com/dev-juan-ibanez</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+
+    <footer>
+      <p>© 2025 — Todos os direitos reservados. 🚀</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
