@@ -15,7 +15,8 @@ const translations = {
       undb_logo: "UNDB Logo",
       gmail_logo: "Gmail Logo",
       linkedin_logo: "LinkedIn Logo",
-      github_logo: "GitHub Logo"
+      github_logo: "GitHub Logo",
+      lattes_logo: "Currículum Lattes",
     },
     menu_toggle_aria: "Abrir menu",
     language_select_title: "Selecionar idioma",
@@ -147,7 +148,8 @@ const translations = {
       intro: "Vamos criar algo incrível juntos! Fale comigo em:",
       email: "E-mail: dev.juan.ibanez@gmail.com",
       linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
-      github: "Portfólio: github.com/dev-juan-ibanez"
+      github: "Portfólio: github.com/dev-juan-ibanez",
+      lattes: "Currículum Lattes",
     },
     footer: "© 2025 — Todos os direitos reservados. 🚀",
     theme: "⚙️ Tema:",
@@ -166,7 +168,8 @@ const translations = {
       undb_logo: "UNDB Logo",
       gmail_logo: "Gmail Logo",
       linkedin_logo: "LinkedIn Logo",
-      github_logo: "GitHub Logo"
+      github_logo: "GitHub Logo",
+      lattes_logo: "CV Lattes logo",
     },
     menu_toggle_aria: "Open menu",
     language_select_title: "Select language",
@@ -298,7 +301,8 @@ const translations = {
       intro: "Let’s create something amazing together! Reach out to me at:",
       email: "Email: dev.juan.ibanez@gmail.com",
       linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
-      github: "Portfolio: github.com/dev-juan-ibanez"
+      github: "Portfolio: github.com/dev-juan-ibanez",
+      lattes: "CV Lattes: https://lattes.cnpq.br/1029223661167123"
     },
     footer: "© 2025 — All rights reserved. 🚀",
     theme: "⚙️ Theme:",
@@ -312,12 +316,13 @@ const translations = {
       perfil: "Foto de perfil de Juan Ibanez",
       background: "Imagen de fondo",
       apresentacao: "Foto de Juan Ibanez presentando un artículo en SBSE 2025",
-      ufma_logo: "Logo de UFMA",
-      estacio_logo: "Logo de Estácio",
-      undb_logo: "Logo de UNDB",
-      gmail_logo: "Logo de Gmail",
-      linkedin_logo: "Logo de LinkedIn",
-      github_logo: "Logo de GitHub"
+      ufma_logo: "Ícono de UFMA",
+      estacio_logo: "Ícono de Estácio",
+      undb_logo: "Ícono de UNDB",
+      gmail_logo: "Ícono de Gmail",
+      linkedin_logo: "Ícono de LinkedIn",
+      github_logo: "Ícono de GitHub",
+      lattes_logo: "Ícono de Currículum Lattes""
     },
     menu_toggle_aria: "Abrir menú",
     language_select_title: "Seleccionar idioma",
@@ -449,7 +454,8 @@ const translations = {
       intro: "¡Creemos algo increíble juntos! Contáctame en:",
       email: "Correo: dev.juan.ibanez@gmail.com",
       linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
-      github: "Portafolio: github.com/dev-juan-ibanez"
+      github: "Portafolio: github.com/dev-juan-ibanez",
+      lattes_logo: "Currículum Lattes: "https://lattes.cnpq.br/1029223661167123"
     },
     footer: "© 2025 — Todos los derechos reservados. 🚀",
     theme: "⚙️ Tema:",
@@ -457,6 +463,9 @@ const translations = {
   }
 };
 
+// =======================
+// Gestão de Idiomas
+// =======================
 function getBrowserLang() {
   const lang = navigator.language.slice(0, 2);
   return ["pt", "en", "es"].includes(lang) ? lang : "pt";
@@ -495,6 +504,8 @@ function setLanguage(lang) {
   if (linkedinLogo) linkedinLogo.setAttribute("alt", t.images_alt.linkedin_logo);
   const githubLogo = document.querySelector(".contact-list li:nth-child(3) .contact-logo");
   if (githubLogo) githubLogo.setAttribute("alt", t.images_alt.github_logo);
+  const lattesLogo = document.querySelector(".contact-list li:nth-child(4) .contact-logo"); // Adicionado
+  if (lattesLogo) lattesLogo.setAttribute("alt", t.images_alt.lattes_logo);
 
   // Atualiza aria-label do botão de menu
   const menuToggle = document.querySelector("#menuToggle");
@@ -646,10 +657,11 @@ function setLanguage(lang) {
   const contatosP = document.querySelector("#contatos p");
   if (contatosP) contatosP.textContent = t.contatos.intro;
   const contactSpans = document.querySelectorAll("#contatos .contact-list li a span");
-  if (contactSpans.length >= 3) {
+  if (contactSpans.length >= 4) { // Alterado para 4 para incluir o Currículo Lattes
     contactSpans[0].textContent = t.contatos.email;
     contactSpans[1].textContent = t.contatos.linkedin;
     contactSpans[2].textContent = t.contatos.github;
+    contactSpans[3].textContent = t.contatos.lattes; // Adicionado para atualizar o Currículo Lattes
   }
 
   const footerP = document.querySelector("footer p");
