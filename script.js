@@ -149,7 +149,7 @@ const translations = {
       email: "E-mail: dev.juan.ibanez@gmail.com",
       linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
       github: "Portfólio: github.com/dev-juan-ibanez",
-      lattes: "Currículum Lattes",
+      lattes: "Currículum Lattes: https://lattes.cnpq.br/1029223661167123",
     },
     footer: "© 2025 — Todos os direitos reservados. 🚀",
     theme: "⚙️ Tema:",
@@ -322,7 +322,7 @@ const translations = {
       gmail_logo: "Ícono de Gmail",
       linkedin_logo: "Ícono de LinkedIn",
       github_logo: "Ícono de GitHub",
-      lattes_logo: "Ícono de Currículum Lattes""
+      lattes_logo: "Ícono de Currículum Lattes"
     },
     menu_toggle_aria: "Abrir menú",
     language_select_title: "Seleccionar idioma",
@@ -455,7 +455,7 @@ const translations = {
       email: "Correo: dev.juan.ibanez@gmail.com",
       linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
       github: "Portafolio: github.com/dev-juan-ibanez",
-      lattes_logo: "Currículum Lattes: "https://lattes.cnpq.br/1029223661167123"
+      lattes: "Currículum Lattes: https://lattes.cnpq.br/1029223661167123"
     },
     footer: "© 2025 — Todos los derechos reservados. 🚀",
     theme: "⚙️ Tema:",
