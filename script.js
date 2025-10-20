@@ -149,7 +149,7 @@ const translations = {
       email: "E-mail: dev.juan.ibanez@gmail.com",
       linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
       github: "Portfólio: github.com/dev-juan-ibanez",
-      lattes: "Currículum Lattes: https://lattes.cnpq.br/1029223661167123",
+      lattes: "Currículo Lattes: https://lattes.cnpq.br/1029223661167123",
     },
     footer: "© 2025 — Todos os direitos reservados. 🚀",
     theme: "⚙️ Tema:",
