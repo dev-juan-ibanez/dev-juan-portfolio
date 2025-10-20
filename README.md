@@ -61,9 +61,20 @@ Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias! �
 Sugestões de design e acessibilidade são sempre bem-vindas.
 
 ## 📜 Licença
-
 Este projeto está licenciado sob a Licença MIT.
 
-Feito com 💻, ☕ e dedicação por Juan Ibanez.
+## ☕ Gostou do projeto? Me pague um café!
+Se você curtiu o projeto e quer apoiar, pode me pagar um café! ☕  
+**Chave PIX**:  
+```text
+f0098b96-0433-4266-b392-4856d85caadc
+```
+**(Copie e cole a chave acima para contribuir!)**
+
+
+## 🧑‍💻 Autor
+
+Feito com ❤️ por **Juan Ibanez**  
+🌎 [LinkedIn](https://www.linkedin.com/in/juan-ibanez-df/) | [GitHub](https://github.com/dev-juan-ibanez) | [Lattes](https://lattes.cnpq.br/1029223661167123)
 
 “Código é arte — e design é a moldura que o torna memorável.”
