@@ -13,6 +13,8 @@ const translations = {
       ufma_logo: "UFMA Logo",
       estacio_logo: "Estácio Logo",
       undb_logo: "UNDB Logo",
+      taskday_logo: "TaskDayPomodoro Logo",
+      linktree_logo: "LinkTree Logo",
       gmail_logo: "Gmail Logo",
       linkedin_logo: "LinkedIn Logo",
       github_logo: "GitHub Logo",
@@ -34,17 +36,17 @@ const translations = {
       sobre: "Sou um pensador criativo, solucionador de problemas e eterno aprendiz, sempre explorando novas tecnologias e aprimorando minhas habilidades em programação e engenharia de software. Quando não estou escrevendo código, você pode me encontrar experimentando novas ideias, estudando sobre inteligência artificial ou explorando projetos que unem inovação e impacto real."
     },
     sectionTitles: {
-      sobre: "👨‍💻 Sobre mim",
-      experiencia: "💼 Experiência",
-      educacao: "🎓 Educação",
-      licencas: "🏅 Licenças e certificados",
-      projetos: "🚀 Projetos",
-      habilidades: "🔨 Habilidades",
-      contatos: "📬 Contatos"
+      sobre: "Sobre mim",
+      experiencia: "Experiência",
+      educacao: "Educação",
+      licencas: "Licenças e certificados",
+      projetos: "Projetos",
+      habilidades: "Habilidades",
+      contatos: "Contatos"
     },
     experiencia: {
       pesquisador: {
-        title: "Pesquisador - INEOF (Instituto Nacional de Energias Oceânicas e Fluviais)",
+        title: "💼 Pesquisador - INEOF (Instituto Nacional de Energias Oceânicas e Fluviais)",
         period: "UFMA – Universidade Federal do Maranhão | Jun. 2023 – Atual | São Luís, MA (Presencial)",
         details: [
           "Desenvolvimento de pesquisas aplicadas na área de <strong>Engenharia Elétrica e Ciência da Computação</strong>, com foco em <strong>engenharia de software, modelagem dirigida a modelos (MDE)</strong> e <strong>arquiteturas Data Lakehouse</strong> para energias renováveis.",
@@ -54,7 +56,7 @@ const translations = {
         ]
       },
       cofundador: {
-        title: "Co-Fundador - D&R Técnica",
+        title: "💼 Co-Fundador - D&R Técnica",
         period: "Out. 2018 – Jul. 2021 | São Luís, MA",
         details: [
           "Responsável pela criação, gestão e operação da empresa, atuando nas áreas de administração, contabilidade, marketing e relacionamento com clientes.",
@@ -67,7 +69,7 @@ const translations = {
     },
     educacao: {
       mestrado: {
-        title: "Mestrado em Engenharia Elétrica – UFMA",
+        title: "🎓 Mestrado em Engenharia Elétrica – UFMA",
         period: "Início em ago. 2023 | Previsão de conclusão – jan. 2026",
         details: [
           "Área de Concentração: Ciência da Computação",
@@ -76,7 +78,7 @@ const translations = {
         ]
       },
       pos: {
-        title: "Pós-graduação Lato Sensu em Engenharia de Software – Estácio",
+        title: "🎓 Pós-graduação Lato Sensu em Engenharia de Software – Estácio",
         period: "jan. 2023 – dez. 2023",
         details: [
           "Nota Final: <strong>9,60</strong>",
@@ -85,7 +87,7 @@ const translations = {
         ]
       },
       bacharelado: {
-        title: "Bacharelado em Sistemas de Informação – UNDB",
+        title: "🎓 Bacharelado em Sistemas de Informação – UNDB",
         period: "fev. 2019 – dez. 2022",
         details: [
           "Ênfase em Tecnologia da Informação",
@@ -95,7 +97,7 @@ const translations = {
     },
     licencas: {
       oracle: {
-        title: "Programa Oracle Next Education F2 T7 - Back-End | Alura | dez. 2024",
+        title: "🏅 Programa Oracle Next Education F2 T7 - Back-End | Alura | dez. 2024",
         details: [
           "Programa de capacitação profissional em parceria com a Oracle.",
           "Foco em desenvolvimento <strong>Back-End</strong>, com ênfase em <strong>Node.js</strong>, <strong>Java</strong>, <strong>SQL</strong> e <strong>boas práticas de programação</strong>.",
@@ -104,7 +106,7 @@ const translations = {
         ]
       },
       google: {
-        title: "Certificado Profissional de Análise de Dados do Google | Coursera | jan. 2023",
+        title: "🏅 Certificado Profissional de Análise de Dados do Google | Coursera | jan. 2023",
         details: [
           "Certificação internacional voltada à <strong>Análise de Dados</strong> e <strong>Business Intelligence</strong>.",
           "Conteúdos principais: limpeza e transformação de dados, uso de <strong>planilhas</strong>, <strong>SQL</strong> e visualização de dados.",
@@ -113,43 +115,46 @@ const translations = {
       }
     },
     projetos: {
-      gofinance: {
-        title: "Aplicação Go Finance",
+      taskday: {
+        title: "🚀 TaskDayPomodoro - Gerenciador de Tarefas",
         details: [
-          "Sistema web full stack desenvolvido com foco em gestão financeira inteligente, permitindo o controle de receitas, despesas e relatórios personalizados.",
-          "Implementado utilizando Golang (backend), PostgreSQL (banco de dados) e Next.js (frontend).",
-          '<a href="https://github.com/Juan-Ibanezdf/gofinance" target="_blank">github.com/Juan-Ibanezdf/gofinance</a>'
+          "Aplicação web para gerenciar tempo e aumentar produtividade usando a técnica Pomodoro.",
+          "Recursos: múltiplos idiomas, temas claro/escuro, estatísticas detalhadas, exportação PNG.",
+          "Tecnologias: HTML5, CSS3, JavaScript, Canvas API, localStorage.",
+          '<strong>Acessar:</strong> <a href="https://dev-juan-ibanez.github.io/task-day-pomodoro/" target="_blank">dev-juan-ibanez.github.io/task-day-pomodoro</a>',
+          '<strong>Repositório:</strong> <a href="https://github.com/dev-juan-ibanez/task-day-pomodoro" target="_blank">github.com/dev-juan-ibanez/task-day-pomodoro</a>'
         ]
       },
       linktree: {
-        title: "Dev Juan Link Tree",
+        title: "🚀 Dev Juan Link Tree",
         details: [
           "Página centralizada que conecta projetos, portfólio e redes sociais como desenvolvedor, com design simples e estilizado.",
           "Implementado com HTML5, CSS3 e JavaScript, hospedado via GitHub Pages.",
-          '<a href="https://dev-juan-ibanez.github.io/dev-juan-link-tree/" target="_blank">dev-juan-ibanez.github.io/dev-juan-link-tree</a>'
+          '<strong>Acessar:</strong> <a href="https://dev-juan-ibanez.github.io/dev-juan-link-tree/" target="_blank">dev-juan-ibanez.github.io/dev-juan-link-tree</a>',
+          '<strong>Repositório:</strong> <a href="https://github.com/dev-juan-ibanez/dev-juan-link-tree" target="_blank">github.com/dev-juan-ibanez/dev-juan-link-tree</a>'
         ]
       }
     },
     habilidades: {
-      title: "🔨 Habilidades",
+      title: "Habilidades",
       details: [
-        "Desenvolvimento <strong>Back End</strong> (Node.js, Golang, Python);",
-        "Banco de dados (<strong>PostgreSQL</strong>, MySQL, SQLite);",
-        "<strong>Front End</strong> (React.js, TypeScript, Vite);",
-        "<strong>Machine Learning</strong> aplicado a dados e sistemas inteligentes;",
-        "<strong>Metodologias Ágeis</strong> (Scrum);",
-        "<strong>Design de Interfaces (UI)</strong> e <strong>Experiência do Usuário (UX);</strong>",
-        "Ferramentas de produtividade (Excel, PowerPoint, Word);",
-        "<strong>Sistemas Operacionais:</strong> Mac OS, Windows, Linux;",
-        "<strong>Prototipagem</strong> e wireframes."
+        "🎯 Desenvolvimento&nbsp;<strong>Back End</strong>&nbsp;(Node.js, Golang, Python);",
+        "🎯 Banco de dados&nbsp;(<strong>PostgreSQL</strong>, MySQL, SQLite);",
+        "🎯&nbsp;<strong>Front End</strong>&nbsp;(React.js, TypeScript, Vite);",
+        "🎯&nbsp;<strong>Machine Learning</strong>&nbsp;aplicado a dados e sistemas inteligentes;",
+        "🎯&nbsp;<strong>Metodologias Ágeis</strong>&nbsp;(Scrum);",
+        "🎯&nbsp;<strong>Design de Interfaces (UI)</strong>&nbsp;e&nbsp;<strong>Experiência do Usuário (UX);</strong>",
+        "🎯&nbsp;Ferramentas de produtividade (Excel, PowerPoint, Word);",
+        "🎯&nbsp;<strong>Sistemas Operacionais:</strong>&nbsp;Mac OS, Windows, Linux;",
+        "🎯&nbsp;<strong>Prototipagem</strong>&nbsp;e wireframes."
       ]
     },
     contatos: {
       intro: "Vamos criar algo incrível juntos! Fale comigo em:",
-      email: "E-mail: dev.juan.ibanez@gmail.com",
-      linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
-      github: "Portfólio: github.com/dev-juan-ibanez",
-      lattes: "Currículo Lattes: https://lattes.cnpq.br/1029223661167123",
+      email: "📬 E-mail: dev.juan.ibanez@gmail.com",
+      linkedin: "🔗 LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
+      github: "🔗 Portfólio: github.com/dev-juan-ibanez",
+      lattes: "🔗 Currículo Lattes: https://lattes.cnpq.br/1029223661167123",
     },
     footer: "© 2025 — Todos os direitos reservados. 🚀",
     theme: "⚙️ Tema:",
@@ -166,6 +171,8 @@ const translations = {
       ufma_logo: "UFMA Logo",
       estacio_logo: "Estácio Logo",
       undb_logo: "UNDB Logo",
+      taskday_logo: "TaskDayPomodoro Logo",
+      linktree_logo: "LinkTree Logo",
       gmail_logo: "Gmail Logo",
       linkedin_logo: "LinkedIn Logo",
       github_logo: "GitHub Logo",
@@ -187,17 +194,17 @@ const translations = {
       sobre: "I am a creative thinker, problem solver, and lifelong learner, always exploring new technologies and enhancing my skills in programming and software engineering. When I'm not coding, you can find me experimenting with new ideas, studying artificial intelligence, or exploring projects that blend innovation with real-world impact."
     },
     sectionTitles: {
-      sobre: "👨‍💻 About Me",
-      experiencia: "💼 Experience",
-      educacao: "🎓 Education",
-      licencas: "🏅 Licenses and Certifications",
-      projetos: "🚀 Projects",
-      habilidades: "🔨 Skills",
-      contatos: "📬 Contact"
+      sobre: "About Me",
+      experiencia: "Experience",
+      educacao: "Education",
+      licencas: "Licenses and Certifications",
+      projetos: "Projects",
+      habilidades: "Skills",
+      contatos: "Contact"
     },
     experiencia: {
       pesquisador: {
-        title: "Researcher - INEOF (National Institute of Oceanic and Fluvial Energies)",
+        title: "💼 Researcher - INEOF (National Institute of Oceanic and Fluvial Energies)",
         period: "UFMA – Federal University of Maranhão | Jun. 2023 – Present | São Luís, MA (In-person)",
         details: [
           "Conducted applied research in <strong>Electrical Engineering and Computer Science</strong>, focusing on <strong>software engineering, model-driven engineering (MDE)</strong>, and <strong>Data Lakehouse architectures</strong> for renewable energies.",
@@ -207,7 +214,7 @@ const translations = {
         ]
       },
       cofundador: {
-        title: "Co-Founder - D&R Técnica",
+        title: "💼 Co-Founder - D&R Técnica",
         period: "Oct. 2018 – Jul. 2021 | São Luís, MA",
         details: [
           "Responsible for the creation, management, and operation of the company, working in administration, accounting, marketing, and client relations.",
@@ -220,7 +227,7 @@ const translations = {
     },
     educacao: {
       mestrado: {
-        title: "Master’s in Electrical Engineering – UFMA",
+        title: "🎓 Master's in Electrical Engineering – UFMA",
         period: "Started in Aug. 2023 | Expected completion – Jan. 2026",
         details: [
           "Concentration Area: Computer Science",
@@ -229,7 +236,7 @@ const translations = {
         ]
       },
       pos: {
-        title: "Postgraduate Lato Sensu in Software Engineering – Estácio",
+        title: "🎓 Postgraduate Lato Sensu in Software Engineering – Estácio",
         period: "Jan. 2023 – Dec. 2023",
         details: [
           "Final Grade: <strong>9.60</strong>",
@@ -238,7 +245,7 @@ const translations = {
         ]
       },
       bacharelado: {
-        title: "Bachelor’s in Information Systems – UNDB",
+        title: "🎓 Bachelor's in Information Systems – UNDB",
         period: "Feb. 2019 – Dec. 2022",
         details: [
           "Emphasis on Information Technology",
@@ -248,7 +255,7 @@ const translations = {
     },
     licencas: {
       oracle: {
-        title: "Oracle Next Education F2 T7 Program - Back-End | Alura | Dec. 2024",
+        title: "🏅 Oracle Next Education F2 T7 Program - Back-End | Alura | Dec. 2024",
         details: [
           "Professional training program in partnership with Oracle.",
           "Focus on <strong>Back-End</strong> development, emphasizing <strong>Node.js</strong>, <strong>Java</strong>, <strong>SQL</strong>, and <strong>programming best practices</strong>.",
@@ -257,7 +264,7 @@ const translations = {
         ]
       },
       google: {
-        title: "Google Professional Data Analytics Certificate | Coursera | Jan. 2023",
+        title: "🏅 Google Professional Data Analytics Certificate | Coursera | Jan. 2023",
         details: [
           "International certification focused on <strong>Data Analysis</strong> and <strong>Business Intelligence</strong>.",
           "Main Content: Data cleaning and transformation, use of <strong>spreadsheets</strong>, <strong>SQL</strong>, <strong>R</strong>, and data visualization.",
@@ -266,43 +273,46 @@ const translations = {
       }
     },
     projetos: {
-      gofinance: {
-        title: "Go Finance Application",
+      taskday: {
+        title: "🚀 TaskDayPomodoro - Task Manager",
         details: [
-          "Full-stack web system developed for intelligent financial management, enabling control of income, expenses, and customized reports.",
-          "Implemented using Golang (backend), PostgreSQL (database), and Next.js (frontend).",
-          '<a href="https://github.com/Juan-Ibanezdf/gofinance" target="_blank">github.com/Juan-Ibanezdf/gofinance</a>'
+          "Web application to manage time and increase productivity using the Pomodoro technique.",
+          "Features: multiple languages, light/dark themes, detailed statistics, PNG export.",
+          "Technologies: HTML5, CSS3, JavaScript, Canvas API, localStorage.",
+          '<strong>Access:</strong> <a href="https://dev-juan-ibanez.github.io/task-day-pomodoro/" target="_blank">dev-juan-ibanez.github.io/task-day-pomodoro</a>',
+          '<strong>Repository:</strong> <a href="https://github.com/dev-juan-ibanez/task-day-pomodoro" target="_blank">github.com/dev-juan-ibanez/task-day-pomodoro</a>'
         ]
       },
       linktree: {
-        title: "Dev Juan Link Tree",
+        title: "🚀 Dev Juan Link Tree",
         details: [
           "Centralized page connecting projects, portfolio, and social networks as a developer, with a simple and stylish design.",
           "Implemented with HTML5, CSS3, and JavaScript, hosted via GitHub Pages.",
-          '<a href="https://dev-juan-ibanez.github.io/dev-juan-link-tree/" target="_blank">dev-juan-ibanez.github.io/dev-juan-link-tree</a>'
+          '<strong>Access:</strong> <a href="https://dev-juan-ibanez.github.io/dev-juan-link-tree/" target="_blank">dev-juan-ibanez.github.io/dev-juan-link-tree</a>',
+          '<strong>Repository:</strong> <a href="https://github.com/dev-juan-ibanez/dev-juan-link-tree" target="_blank">github.com/dev-juan-ibanez/dev-juan-link-tree</a>'
         ]
       }
     },
     habilidades: {
-      title: "🔨 Skills",
+      title: "Skills",
       details: [
-        "<strong>Back-End</strong> Development (Node.js, Golang, Python);",
-        "Databases (<strong>PostgreSQL</strong>, MySQL, SQLite);",
-        "<strong>Front-End</strong> (React.js, TypeScript, Vite);",
-        "<strong>Machine Learning</strong> applied to data and intelligent systems;",
-        "<strong>Agile Methodologies</strong> (Scrum);",
-        "<strong>Interface Design (UI)</strong> and <strong>User Experience (UX);</strong>",
-        "Productivity tools (Excel, PowerPoint, Word);",
-        "<strong>Operating Systems:</strong> Mac OS, Windows, Linux;",
-        "<strong>Prototyping</strong> and wireframes."
+        "🎯&nbsp;<strong>Back-End</strong>&nbsp;Development (Node.js, Golang, Python);",
+        "🎯 Databases (<strong>PostgreSQL</strong>, MySQL, SQLite);",
+        "🎯&nbsp;<strong>Front-End</strong>&nbsp;(React.js, TypeScript, Vite);",
+        "🎯&nbsp;<strong>Machine Learning</strong>&nbsp;applied to data and intelligent systems;",
+        "🎯&nbsp;<strong>Agile Methodologies</strong>&nbsp;(Scrum);",
+        "🎯&nbsp;<strong>Interface Design (UI)</strong>&nbsp;and&nbsp;<strong>User Experience (UX);</strong>",
+        "🎯 Productivity tools (Excel, PowerPoint, Word);",
+        "🎯&nbsp;<strong>Operating Systems:</strong>&nbsp;Mac OS, Windows, Linux;",
+        "🎯&nbsp;<strong>Prototyping</strong>&nbsp;and wireframes."
       ]
     },
     contatos: {
-      intro: "Let’s create something amazing together! Reach out to me at:",
-      email: "Email: dev.juan.ibanez@gmail.com",
-      linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
-      github: "Portfolio: github.com/dev-juan-ibanez",
-      lattes: "CV Lattes: https://lattes.cnpq.br/1029223661167123"
+      intro: "Let's create something amazing together! Reach out to me at:",
+      email: "📬 Email: dev.juan.ibanez@gmail.com",
+      linkedin: "🔗 LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
+      github: "🔗 Portfolio: github.com/dev-juan-ibanez",
+      lattes: "🔗 CV Lattes: https://lattes.cnpq.br/1029223661167123"
     },
     footer: "© 2025 — All rights reserved. 🚀",
     theme: "⚙️ Theme:",
@@ -319,6 +329,8 @@ const translations = {
       ufma_logo: "Ícono de UFMA",
       estacio_logo: "Ícono de Estácio",
       undb_logo: "Ícono de UNDB",
+      taskday_logo: "TaskDayPomodoro Logo",
+      linktree_logo: "LinkTree Logo",
       gmail_logo: "Ícono de Gmail",
       linkedin_logo: "Ícono de LinkedIn",
       github_logo: "Ícono de GitHub",
@@ -340,17 +352,17 @@ const translations = {
       sobre: "Soy un pensador creativo, solucionador de problemas y aprendiz eterno, siempre explorando nuevas tecnologías y mejorando mis habilidades en programación e ingeniería de software. Cuando no estoy programando, puedes encontrarme experimentando con nuevas ideas, estudiando inteligencia artificial o explorando proyectos que combinan innovación con impacto real."
     },
     sectionTitles: {
-      sobre: "👨‍💻 Sobre mí",
-      experiencia: "💼 Experiencia",
-      educacao: "🎓 Educación",
-      licencas: "🏅 Licencias y certificaciones",
-      projetos: "🚀 Proyectos",
-      habilidades: "🔨 Habilidades",
-      contatos: "📬 Contacto"
+      sobre: "Sobre mí",
+      experiencia: "Experiencia",
+      educacao: "Educación",
+      licencas: "Licencias y certificaciones",
+      projetos: "Proyectos",
+      habilidades: "Habilidades",
+      contatos: "Contacto"
     },
     experiencia: {
       pesquisador: {
-        title: "Investigador - INEOF (Instituto Nacional de Energías Oceánicas y Fluviales)",
+        title: "💼 Investigador - INEOF (Instituto Nacional de Energías Oceánicas y Fluviales)",
         period: "UFMA – Universidad Federal de Maranhão | Jun. 2023 – Actual | São Luís, MA (Presencial)",
         details: [
           "Realicé investigaciones aplicadas en <strong>Ingeniería Eléctrica y Ciencias de la Computación</strong>, con enfoque en <strong>ingeniería de software, ingeniería dirigida por modelos (MDE)</strong> y <strong>arquitecturas Data Lakehouse</strong> para energías renovables.",
@@ -360,7 +372,7 @@ const translations = {
         ]
       },
       cofundador: {
-        title: "Co-Fundador - D&R Técnica",
+        title: "💼 Co-Fundador - D&R Técnica",
         period: "Oct. 2018 – Jul. 2021 | São Luís, MA",
         details: [
           "Responsable de la creación, gestión y operación de la empresa, trabajando en administración, contabilidad, marketing y relaciones con clientes.",
@@ -373,7 +385,7 @@ const translations = {
     },
     educacao: {
       mestrado: {
-        title: "Maestría en Ingeniería Eléctrica – UFMA",
+        title: "🎓 Maestría en Ingeniería Eléctrica – UFMA",
         period: "Iniciada en ago. 2023 | Finalización prevista – ene. 2026",
         details: [
           "Área de Concentración: Ciencias de la Computación",
@@ -382,7 +394,7 @@ const translations = {
         ]
       },
       pos: {
-        title: "Posgrado Lato Sensu en Ingeniería de Software – Estácio",
+        title: "🎓 Posgrado Lato Sensu en Ingeniería de Software – Estácio",
         period: "Ene. 2023 – Dic. 2023",
         details: [
           "Nota Final: <strong>9,60</strong>",
@@ -391,7 +403,7 @@ const translations = {
         ]
       },
       bacharelado: {
-        title: "Licenciatura en Sistemas de Información – UNDB",
+        title: "🎓 Licenciatura en Sistemas de Información – UNDB",
         period: "Feb. 2019 – Dic. 2022",
         details: [
           "Énfasis en Tecnología de la Información",
@@ -401,7 +413,7 @@ const translations = {
     },
     licencas: {
       oracle: {
-        title: "Programa Oracle Next Education F2 T7 - Back-End | Alura | Dic. 2024",
+        title: "🏅 Programa Oracle Next Education F2 T7 - Back-End | Alura | Dic. 2024",
         details: [
           "Programa de capacitación profesional en colaboración con Oracle.",
           "Enfoque en desarrollo <strong>Back-End</strong>, con énfasis en <strong>Node.js</strong>, <strong>Java</strong>, <strong>SQL</strong> y <strong>buenas prácticas de programación</strong>.",
@@ -410,7 +422,7 @@ const translations = {
         ]
       },
       google: {
-        title: "Certificado Profesional de Análisis de Datos de Google | Coursera | Ene. 2023",
+        title: "🏅 Certificado Profesional de Análisis de Datos de Google | Coursera | Ene. 2023",
         details: [
           "Certificación internacional enfocada en <strong>Análisis de Datos</strong> e <strong>Inteligencia de Negocios</strong>.",
           "Contenidos principales: limpieza y transformación de datos, uso de <strong>hojas de cálculo</strong>, <strong>SQL</strong>, <strong>R</strong> y visualización de datos.",
@@ -419,43 +431,46 @@ const translations = {
       }
     },
     projetos: {
-      gofinance: {
-        title: "Aplicación Go Finance",
+      taskday: {
+        title: "🚀 TaskDayPomodoro - Gestor de Tareas",
         details: [
-          "Sistema web full stack desarrollado para la gestión financiera inteligente, permite el control de ingresos, gastos e informes personalizados.",
-          "Implementado utilizando Golang (backend), PostgreSQL (base de datos) y Next.js (frontend).",
-          '<a href="https://github.com/Juan-Ibanezdf/gofinance" target="_blank">github.com/Juan-Ibanezdf/gofinance</a>'
+          "Aplicación web para gestionar el tiempo y aumentar la productividad usando la técnica Pomodoro.",
+          "Características: múltiples idiomas, temas claro/oscuro, estadísticas detalladas, exportación PNG.",
+          "Tecnologías: HTML5, CSS3, JavaScript, Canvas API, localStorage.",
+          '<strong>Acceder:</strong> <a href="https://dev-juan-ibanez.github.io/task-day-pomodoro/" target="_blank">dev-juan-ibanez.github.io/task-day-pomodoro</a>',
+          '<strong>Repositorio:</strong> <a href="https://github.com/dev-juan-ibanez/task-day-pomodoro" target="_blank">github.com/dev-juan-ibanez/task-day-pomodoro</a>'
         ]
       },
       linktree: {
-        title: "Dev Juan Link Tree",
+        title: "🚀 Dev Juan Link Tree",
         details: [
           "Página centralizada que conecta proyectos, portafolio y redes sociales como desarrollador, con un diseño simple y elegante.",
           "Implementado con HTML5, CSS3 y JavaScript, alojado a través de GitHub Pages.",
-          '<a href="https://dev-juan-ibanez.github.io/dev-juan-link-tree/" target="_blank">dev-juan-ibanez.github.io/dev-juan-link-tree</a>'
+          '<strong>Acceder:</strong> <a href="https://dev-juan-ibanez.github.io/dev-juan-link-tree/" target="_blank">dev-juan-ibanez.github.io/dev-juan-link-tree</a>',
+          '<strong>Repositorio:</strong> <a href="https://github.com/dev-juan-ibanez/dev-juan-link-tree" target="_blank">github.com/dev-juan-ibanez/dev-juan-link-tree</a>'
         ]
       }
     },
     habilidades: {
-      title: "🔨 Habilidades",
+      title: "Habilidades",
       details: [
-        "Desarrollo <strong>Back-End</strong> (Node.js, Golang, Python);",
-        "Bases de datos (<strong>PostgreSQL</strong>, MySQL, SQLite);",
-        "<strong>Front-End</strong> (React.js, TypeScript, Vite);",
-        "<strong>Machine Learning</strong> aplicado a datos y sistemas inteligentes;",
-        "<strong>Metodologías Ágiles</strong> (Scrum);",
-        "<strong>Diseño de Interfaces (UI)</strong> y <strong>Experiencia del Usuario (UX);</strong>",
-        "Herramientas de productividad (Excel, PowerPoint, Word);",
-        "<strong>Sistemas Operativos:</strong> Mac OS, Windows, Linux;",
-        "<strong>Prototipado</strong> y wireframes."
+        "🎯 Desarrollo&nbsp;<strong>Back-End</strong> (Node.js, Golang, Python);",
+        "🎯 Bases de datos&nbsp;(<strong>PostgreSQL</strong>, MySQL, SQLite);",
+        "🎯&nbsp;<strong>Front-End</strong> (React.js, TypeScript, Vite);",
+        "🎯&nbsp;<strong>Machine Learning</strong>&nbsp;aplicado a datos y sistemas inteligentes;",
+        "🎯&nbsp;<strong>Metodologías Ágiles</strong> (Scrum);",
+        "🎯&nbsp;<strong>Diseño de Interfaces (UI)</strong>&nbsp;y&nbsp;<strong>Experiencia del Usuario (UX);</strong>",
+        "🎯 Herramientas de productividad (Excel, PowerPoint, Word);",
+        "🎯&nbsp;<strong>Sistemas Operativos:</strong>&nbsp;Mac OS, Windows, Linux;",
+        "🎯&nbsp;<strong>Prototipado</strong>&nbsp;y wireframes."
       ]
     },
     contatos: {
       intro: "¡Creemos algo increíble juntos! Contáctame en:",
-      email: "Correo: dev.juan.ibanez@gmail.com",
-      linkedin: "LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
-      github: "Portafolio: github.com/dev-juan-ibanez",
-      lattes: "Currículum Lattes: https://lattes.cnpq.br/1029223661167123"
+      email: "📬 Correo: dev.juan.ibanez@gmail.com",
+      linkedin: "🔗 LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
+      github: "🔗 Portafolio: github.com/dev-juan-ibanez",
+      lattes: "🔗 Currículum Lattes: https://lattes.cnpq.br/1029223661167123"
     },
     footer: "© 2025 — Todos los derechos reservados. 🚀",
     theme: "⚙️ Tema:",
@@ -492,19 +507,23 @@ function setLanguage(lang) {
   if (backgroundImg) backgroundImg.setAttribute("alt", t.images_alt.background);
   const introPhotoImg = document.querySelector(".intro-photo img");
   if (introPhotoImg) introPhotoImg.setAttribute("alt", t.images_alt.apresentacao);
-  const ufmaLogo = document.querySelector(".education-item:nth-child(2) .education-logo");
+  const ufmaLogo = document.querySelector(".education-item:nth-child(1) .education-logo");
   if (ufmaLogo) ufmaLogo.setAttribute("alt", t.images_alt.ufma_logo);
-  const estacioLogo = document.querySelector(".education-item:nth-child(5) .education-logo");
+  const estacioLogo = document.querySelector(".education-item:nth-child(2) .education-logo");
   if (estacioLogo) estacioLogo.setAttribute("alt", t.images_alt.estacio_logo);
-  const undbLogo = document.querySelector(".education-item:nth-child(8) .education-logo");
+  const undbLogo = document.querySelector(".education-item:nth-child(3) .education-logo");
   if (undbLogo) undbLogo.setAttribute("alt", t.images_alt.undb_logo);
+  const taskdayLogo = document.querySelector("#projetos article:nth-child(1) .project-logo");
+  if (taskdayLogo) taskdayLogo.setAttribute("alt", t.images_alt.taskday_logo);
+  const linktreeLogo = document.querySelector("#projetos article:nth-child(2) .project-logo");
+  if (linktreeLogo) linktreeLogo.setAttribute("alt", t.images_alt.linktree_logo);
   const gmailLogo = document.querySelector(".contact-list li:nth-child(1) .contact-logo");
   if (gmailLogo) gmailLogo.setAttribute("alt", t.images_alt.gmail_logo);
   const linkedinLogo = document.querySelector(".contact-list li:nth-child(2) .contact-logo");
   if (linkedinLogo) linkedinLogo.setAttribute("alt", t.images_alt.linkedin_logo);
   const githubLogo = document.querySelector(".contact-list li:nth-child(3) .contact-logo");
   if (githubLogo) githubLogo.setAttribute("alt", t.images_alt.github_logo);
-  const lattesLogo = document.querySelector(".contact-list li:nth-child(4) .contact-logo"); // Adicionado
+  const lattesLogo = document.querySelector(".contact-list li:nth-child(4) .contact-logo");
   if (lattesLogo) lattesLogo.setAttribute("alt", t.images_alt.lattes_logo);
 
   // Atualiza aria-label do botão de menu
@@ -530,11 +549,16 @@ function setLanguage(lang) {
   // Atualiza navegação
   const navLinks = document.querySelectorAll(".navbar a");
   if (navLinks.length >= 5) {
-    navLinks[0].textContent = t.nav.home;
-    navLinks[1].textContent = t.nav.experiencia;
-    navLinks[2].textContent = t.nav.educacao;
-    navLinks[3].textContent = t.nav.projetos;
-    navLinks[4].textContent = t.nav.contatos;
+    navLinks[0].setAttribute("href", "#intro");
+    navLinks[0].innerHTML = `<img src="assets/home.png" alt="${t.nav.home} Icon" class="nav-icon" /><span>${t.nav.home}</span>`;
+    navLinks[1].setAttribute("href", "#experiencia");
+    navLinks[1].innerHTML = `<img src="assets/experiencia.png" alt="${t.nav.experiencia} Icon" class="nav-icon" /><span>${t.nav.experiencia}</span>`;
+    navLinks[2].setAttribute("href", "#educacao");
+    navLinks[2].innerHTML = `<img src="assets/educacao.png" alt="${t.nav.educacao} Icon" class="nav-icon" /><span>${t.nav.educacao}</span>`;
+    navLinks[3].setAttribute("href", "#projetos");
+    navLinks[3].innerHTML = `<img src="assets/projetos.png" alt="${t.nav.projetos} Icon" class="nav-icon" /><span>${t.nav.projetos}</span>`;
+    navLinks[4].setAttribute("href", "#contatos");
+    navLinks[4].innerHTML = `<img src="assets/contatos.png" alt="${t.nav.contatos} Icon" class="nav-icon" /><span>${t.nav.contatos}</span>`;
   }
 
   // Atualiza seções
@@ -551,22 +575,26 @@ function setLanguage(lang) {
   if (experienciaH2) experienciaH2.textContent = t.sectionTitles.experiencia;
   const experienciaArticles = document.querySelectorAll("#experiencia article");
   if (experienciaArticles.length >= 2) {
-    const pesquisadorH3 = experienciaArticles[0].querySelector("h3");
-    const pesquisadorP = experienciaArticles[0].querySelector("p");
-    const pesquisadorLis = experienciaArticles[0].querySelectorAll("ul li");
-    if (pesquisadorH3) pesquisadorH3.innerHTML = t.experiencia.pesquisador.title;
-    if (pesquisadorP) pesquisadorP.innerHTML = t.experiencia.pesquisador.period;
-    pesquisadorLis.forEach((li, i) => {
-      if (i < t.experiencia.pesquisador.details.length) li.innerHTML = t.experiencia.pesquisador.details[i];
-    });
-
-    const cofundadorH3 = experienciaArticles[1].querySelector("h3");
-    const cofundadorP = experienciaArticles[1].querySelector("p");
-    const cofundadorLis = experienciaArticles[1].querySelectorAll("ul li");
-    if (cofundadorH3) cofundadorH3.innerHTML = t.experiencia.cofundador.title;
-    if (cofundadorP) cofundadorP.innerHTML = t.experiencia.cofundador.period;
-    cofundadorLis.forEach((li, i) => {
-      if (i < t.experiencia.cofundador.details.length) li.innerHTML = t.experiencia.cofundador.details[i];
+    experienciaArticles.forEach((article, index) => {
+      if (index === 0) {
+        const pesquisadorH3 = article.querySelector("h3");
+        const pesquisadorP = article.querySelector("p");
+        const pesquisadorLis = article.querySelectorAll("ul li");
+        if (pesquisadorH3) pesquisadorH3.innerHTML = t.experiencia.pesquisador.title;
+        if (pesquisadorP) pesquisadorP.innerHTML = t.experiencia.pesquisador.period;
+        pesquisadorLis.forEach((li, i) => {
+          if (i < t.experiencia.pesquisador.details.length) li.innerHTML = t.experiencia.pesquisador.details[i];
+        });
+      } else if (index === 1) {
+        const cofundadorH3 = article.querySelector("h3");
+        const cofundadorP = article.querySelector("p");
+        const cofundadorLis = article.querySelectorAll("ul li");
+        if (cofundadorH3) cofundadorH3.innerHTML = t.experiencia.cofundador.title;
+        if (cofundadorP) cofundadorP.innerHTML = t.experiencia.cofundador.period;
+        cofundadorLis.forEach((li, i) => {
+          if (i < t.experiencia.cofundador.details.length) li.innerHTML = t.experiencia.cofundador.details[i];
+        });
+      }
     });
   }
 
@@ -608,31 +636,35 @@ function setLanguage(lang) {
   if (licencasH2) licencasH2.textContent = t.sectionTitles.licencas;
   const licencasArticles = document.querySelectorAll("#licencas article");
   if (licencasArticles.length >= 2) {
-    const oracleH3 = licencasArticles[0].querySelector("h3");
-    const oracleLis = licencasArticles[0].querySelectorAll("ul li");
-    if (oracleH3) oracleH3.innerHTML = t.licencas.oracle.title;
-    oracleLis.forEach((li, i) => {
-      if (i < t.licencas.oracle.details.length) li.innerHTML = t.licencas.oracle.details[i];
-    });
-
-    const googleH3 = licencasArticles[1].querySelector("h3");
-    const googleLis = licencasArticles[1].querySelectorAll("ul li");
-    if (googleH3) googleH3.innerHTML = t.licencas.google.title;
-    googleLis.forEach((li, i) => {
-      if (i < t.licencas.google.details.length) li.innerHTML = t.licencas.google.details[i];
+    licencasArticles.forEach((article, index) => {
+      if (index === 0) {
+        const oracleH3 = article.querySelector("h3");
+        const oracleLis = article.querySelectorAll("ul li");
+        if (oracleH3) oracleH3.innerHTML = t.licencas.oracle.title;
+        oracleLis.forEach((li, i) => {
+          if (i < t.licencas.oracle.details.length) li.innerHTML = t.licencas.oracle.details[i];
+        });
+      } else if (index === 1) {
+        const googleH3 = article.querySelector("h3");
+        const googleLis = article.querySelectorAll("ul li");
+        if (googleH3) googleH3.innerHTML = t.licencas.google.title;
+        googleLis.forEach((li, i) => {
+          if (i < t.licencas.google.details.length) li.innerHTML = t.licencas.google.details[i];
+        });
+      }
     });
   }
 
-  // Projetos
+  // Projetos - ATUALIZADO para usar TaskDayPomodoro
   const projetosH2 = document.querySelector("#projetos h2");
   if (projetosH2) projetosH2.textContent = t.sectionTitles.projetos;
   const projetosArticles = document.querySelectorAll("#projetos article");
   if (projetosArticles.length >= 2) {
-    const gofinanceH3 = projetosArticles[0].querySelector("h3");
-    const gofinanceLis = projetosArticles[0].querySelectorAll("ul li");
-    if (gofinanceH3) gofinanceH3.innerHTML = t.projetos.gofinance.title;
-    gofinanceLis.forEach((li, i) => {
-      if (i < t.projetos.gofinance.details.length) li.innerHTML = t.projetos.gofinance.details[i];
+    const taskdayH3 = projetosArticles[0].querySelector("h3");
+    const taskdayLis = projetosArticles[0].querySelectorAll("ul li");
+    if (taskdayH3) taskdayH3.innerHTML = t.projetos.taskday.title;
+    taskdayLis.forEach((li, i) => {
+      if (i < t.projetos.taskday.details.length) li.innerHTML = t.projetos.taskday.details[i];
     });
 
     const linktreeH3 = projetosArticles[1].querySelector("h3");
@@ -657,11 +689,11 @@ function setLanguage(lang) {
   const contatosP = document.querySelector("#contatos p");
   if (contatosP) contatosP.textContent = t.contatos.intro;
   const contactSpans = document.querySelectorAll("#contatos .contact-list li a span");
-  if (contactSpans.length >= 4) { // Alterado para 4 para incluir o Currículo Lattes
+  if (contactSpans.length >= 4) {
     contactSpans[0].textContent = t.contatos.email;
     contactSpans[1].textContent = t.contatos.linkedin;
     contactSpans[2].textContent = t.contatos.github;
-    contactSpans[3].textContent = t.contatos.lattes; // Adicionado para atualizar o Currículo Lattes
+    contactSpans[3].textContent = t.contatos.lattes;
   }
 
   const footerP = document.querySelector("footer p");
