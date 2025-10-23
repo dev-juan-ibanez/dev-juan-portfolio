@@ -138,15 +138,15 @@ const translations = {
     habilidades: {
       title: "Habilidades",
       details: [
-        "🎯 Desenvolvimento&nbsp;<strong>Back End</strong>&nbsp;(Node.js, Golang, Python);",
-        "🎯 Banco de dados&nbsp;(<strong>PostgreSQL</strong>, MySQL, SQLite);",
-        "🎯&nbsp;<strong>Front End</strong>&nbsp;(React.js, TypeScript, Vite);",
-        "🎯&nbsp;<strong>Machine Learning</strong>&nbsp;aplicado a dados e sistemas inteligentes;",
-        "🎯&nbsp;<strong>Metodologias Ágeis</strong>&nbsp;(Scrum);",
-        "🎯&nbsp;<strong>Design de Interfaces (UI)</strong>&nbsp;e&nbsp;<strong>Experiência do Usuário (UX);</strong>",
-        "🎯&nbsp;Ferramentas de produtividade (Excel, PowerPoint, Word);",
-        "🎯&nbsp;<strong>Sistemas Operacionais:</strong>&nbsp;Mac OS, Windows, Linux;",
-        "🎯&nbsp;<strong>Prototipagem</strong>&nbsp;e wireframes."
+        "🎯 Desenvolvimento Back End (Node.js, Golang, Python);",
+        "🎯 Banco de dados (PostgreSQL, MySQL, SQLite);",
+        "🎯 Front End (React.js, TypeScript, Vite);",
+        "🎯 Machine Learning aplicado a dados e sistemas inteligentes;",
+        "🎯 Metodologias Ágeis (Scrum);",
+        "🎯 Design de Interfaces (UI) e Experiência do Usuário (UX);",
+        "🎯 Ferramentas de produtividade (Excel, PowerPoint, Word);",
+        "🎯 Sistemas Operacionais: Mac OS, Windows, Linux;",
+        "🎯 Prototipagem e wireframes."
       ]
     },
     contatos: {
@@ -296,15 +296,15 @@ const translations = {
     habilidades: {
       title: "Skills",
       details: [
-        "🎯&nbsp;<strong>Back-End</strong>&nbsp;Development (Node.js, Golang, Python);",
-        "🎯 Databases (<strong>PostgreSQL</strong>, MySQL, SQLite);",
-        "🎯&nbsp;<strong>Front-End</strong>&nbsp;(React.js, TypeScript, Vite);",
-        "🎯&nbsp;<strong>Machine Learning</strong>&nbsp;applied to data and intelligent systems;",
-        "🎯&nbsp;<strong>Agile Methodologies</strong>&nbsp;(Scrum);",
-        "🎯&nbsp;<strong>Interface Design (UI)</strong>&nbsp;and&nbsp;<strong>User Experience (UX);</strong>",
+        "🎯 Back-End Development (Node.js, Golang, Python);",
+        "🎯 Databases (PostgreSQL, MySQL, SQLite);",
+        "🎯 Front-End (React.js, TypeScript, Vite);",
+        "🎯 Machine Learning applied to data and intelligent systems;",
+        "🎯 Agile Methodologies (Scrum);",
+        "🎯 Interface Design (UI) and User Experience (UX);",
         "🎯 Productivity tools (Excel, PowerPoint, Word);",
-        "🎯&nbsp;<strong>Operating Systems:</strong>&nbsp;Mac OS, Windows, Linux;",
-        "🎯&nbsp;<strong>Prototyping</strong>&nbsp;and wireframes."
+        "🎯 Operating Systems: Mac OS, Windows, Linux;",
+        "🎯 Prototyping and wireframes."
       ]
     },
     contatos: {
@@ -454,15 +454,15 @@ const translations = {
     habilidades: {
       title: "Habilidades",
       details: [
-        "🎯 Desarrollo&nbsp;<strong>Back-End</strong> (Node.js, Golang, Python);",
-        "🎯 Bases de datos&nbsp;(<strong>PostgreSQL</strong>, MySQL, SQLite);",
-        "🎯&nbsp;<strong>Front-End</strong> (React.js, TypeScript, Vite);",
-        "🎯&nbsp;<strong>Machine Learning</strong>&nbsp;aplicado a datos y sistemas inteligentes;",
-        "🎯&nbsp;<strong>Metodologías Ágiles</strong> (Scrum);",
-        "🎯&nbsp;<strong>Diseño de Interfaces (UI)</strong>&nbsp;y&nbsp;<strong>Experiencia del Usuario (UX);</strong>",
+        "🎯 Desarrollo Back-End (Node.js, Golang, Python);",
+        "🎯 Bases de datos (PostgreSQL, MySQL, SQLite);",
+        "🎯 Front-End</strong> (React.js, TypeScript, Vite);",
+        "🎯 Machine Learning aplicado a datos y sistemas inteligentes;",
+        "🎯 Metodologías Ágiles (Scrum);",
+        "🎯 Diseño de Interfaces (UI) y Experiencia del Usuario (UX);",
         "🎯 Herramientas de productividad (Excel, PowerPoint, Word);",
-        "🎯&nbsp;<strong>Sistemas Operativos:</strong>&nbsp;Mac OS, Windows, Linux;",
-        "🎯&nbsp;<strong>Prototipado</strong>&nbsp;y wireframes."
+        "🎯 Sistemas Operativos: Mac OS, Windows, Linux;",
+        "🎯 Prototipado y wireframes."
       ]
     },
     contatos: {
