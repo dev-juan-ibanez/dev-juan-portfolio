@@ -24,6 +24,10 @@ Este portfólio foi desenvolvido com foco em design limpo, navegação fluida, a
 - **JavaScript (ES6+)** — Interatividade, gerenciamento de idiomas e controle dinâmico de tema/menu.  
 - **GitHub Pages** — Hospedagem gratuita com integração contínua.
 
+## 🛠️ Ícones utilizados
+
+- **FLATICON** Para os ícones utilizados nesse projeto — [Disponível em: https://www.flaticon.com/br/](https://www.flaticon.com/br/)
+
 ## 📁 Estrutura do Projeto
 📦 dev-juan-portfolio
 ┣ 📂 assets/           # Logos, ícones e imagens (e.g., icon.png)
