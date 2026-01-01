@@ -155,6 +155,7 @@ const translations = {
       linkedin: "🔗 LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
       github: "🔗 Portfólio: github.com/dev-juan-ibanez",
       lattes: "🔗 Currículo Lattes: https://lattes.cnpq.br/1029223661167123",
+      orcid: "🔗 ORCID: https://orcid.org/0009-0001-9387-0704"
     },
     footer: "© 2025 — Todos os direitos reservados. 🚀",
     theme: "⚙️ Tema:",
@@ -312,7 +313,8 @@ const translations = {
       email: "📬 Email: dev.juan.ibanez@gmail.com",
       linkedin: "🔗 LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
       github: "🔗 Portfolio: github.com/dev-juan-ibanez",
-      lattes: "🔗 CV Lattes: https://lattes.cnpq.br/1029223661167123"
+      lattes: "🔗 CV Lattes: https://lattes.cnpq.br/1029223661167123",
+      orcid: "🔗 ORCID: https://orcid.org/0009-0001-9387-0704"
     },
     footer: "© 2025 — All rights reserved. 🚀",
     theme: "⚙️ Theme:",
@@ -470,7 +472,8 @@ const translations = {
       email: "📬 Correo: dev.juan.ibanez@gmail.com",
       linkedin: "🔗 LinkedIn: www.linkedin.com/in/juan-ibanez-df/",
       github: "🔗 Portafolio: github.com/dev-juan-ibanez",
-      lattes: "🔗 Currículum Lattes: https://lattes.cnpq.br/1029223661167123"
+      lattes: "🔗 Currículum Lattes: https://lattes.cnpq.br/1029223661167123",
+      orcid: "🔗 ORCID: https://orcid.org/0009-0001-9387-0704"
     },
     footer: "© 2025 — Todos los derechos reservados. 🚀",
     theme: "⚙️ Tema:",
@@ -525,6 +528,8 @@ function setLanguage(lang) {
   if (githubLogo) githubLogo.setAttribute("alt", t.images_alt.github_logo);
   const lattesLogo = document.querySelector(".contact-list li:nth-child(4) .contact-logo");
   if (lattesLogo) lattesLogo.setAttribute("alt", t.images_alt.lattes_logo);
+  const orcidLogo = document.querySelector(".contact-list li:nth-child(5) .contact-logo");
+  if (orcidLogo) orcidLogo.setAttribute("alt", "ORCID Logo");
 
   // Atualiza aria-label do botão de menu
   const menuToggle = document.querySelector("#menuToggle");
@@ -689,11 +694,12 @@ function setLanguage(lang) {
   const contatosP = document.querySelector("#contatos p");
   if (contatosP) contatosP.textContent = t.contatos.intro;
   const contactSpans = document.querySelectorAll("#contatos .contact-list li a span");
-  if (contactSpans.length >= 4) {
+  if (contactSpans.length >= 5) {
     contactSpans[0].textContent = t.contatos.email;
     contactSpans[1].textContent = t.contatos.linkedin;
     contactSpans[2].textContent = t.contatos.github;
     contactSpans[3].textContent = t.contatos.lattes;
+    contactSpans[4].textContent = t.contatos.orcid;
   }
 
   const footerP = document.querySelector("footer p");
