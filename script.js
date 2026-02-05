@@ -3,7 +3,7 @@
 // =======================
 const translations = {
   pt: {
-    title: "Juan Daniel Ferreira Ibanez",
+    title: "M. Sc. Juan Daniel Ferreira Ibanez",
     meta_description: "Portfólio de Juan Daniel Ferreira Ibanez, desenvolvedor e pesquisador multidisciplinar.",
     meta_author: "Juan Daniel Ferreira Ibanez",
     images_alt: {
@@ -31,7 +31,7 @@ const translations = {
       contatos: "Contato"
     },
     intro: {
-      name: "Juan Daniel Ferreira Ibanez",
+      name: "M. Sc. Juan Daniel Ferreira Ibanez",
       bio: "Olá, sou Juan Ibanez! Um programador multidisciplinar que mora em São Luís - MA. Com mais de 5 anos de carreira, encontrei meu propósito em criar soluções inteligentes que unem tecnologia, eficiência e inovação. Tenho experiência em backend, frontend e integração de sistemas, focando em desempenho, segurança e usabilidade. Minha paixão é transformar ideias complexas em aplicações funcionais e escaláveis que impactam positivamente.",
       sobre: "Sou um pensador criativo, solucionador de problemas e eterno aprendiz, sempre explorando novas tecnologias e aprimorando minhas habilidades em programação e engenharia de software. Quando não estou escrevendo código, você pode me encontrar experimentando novas ideias, estudando sobre inteligência artificial ou explorando projetos que unem inovação e impacto real."
     },
@@ -190,9 +190,8 @@ const translations = {
         title: "📖 Crônicas de Yundraw: A Guerra dos Deuses — Ato I",
         tagline: "Em Yundraw, o mundo não é governado apenas por reis, impérios ou exércitos — ele é moldado por escolhas antigas, silêncios convenientes e sistemas que aprendem a se alimentar daquilo que as pessoas preferem esquecer.",
         summary: [
-          "Quando forças que deveriam proteger passam a moldar vidas como recursos descartáveis, quatro figuras improváveis — Alice, marcada por cicatrizes físicas e mágicas que não permitem esquecimento; Bjor, cuja força carrega mais luto do que glória; Lucius, o mago que tenta impor ética à lógica de um mundo injusto; e Stefan, cuja ironia esconde perdas irreparáveis — são arrastadas para o centro de um conflito anterior à própria existência.",
-          "Atravessar florestas que julgam, cidades que mentem e pântanos que observam se transforma em confrontação direta com cultos que pregam paz enquanto drenam essência, nobres que mascaram crueldade com civilidade e sábios que tratam vidas como variáveis aceitáveis.",
-          "Cada escolha cobra um preço real: não há vitórias limpas, o passado insiste e o futuro exige pagamentos antecipados. Crônicas de Yundraw: A Guerra dos Deuses — Ato I é sobre quem resiste sem se tornar parte da engrenagem e sobre o custo de ver sem desviar o olhar; no fim, Yundraw não pergunta quem merece sobreviver, mas quem paga para continuar enxergando."
+          "Quatro figuras improváveis enfrentam cultos hipócritas e nobres cruéis quando forças protetoras passam a tratar vidas como recursos descartáveis.",
+          "Cada escolha cobra um preço real e Yundraw exige que quem resiste pague para continuar enxergando sem desviar o olhar."
         ],
         cta_label: "Comprar na Amazon Brasil",
         cta_url: "https://www.amazon.com.br/dp/B0GFG1T37Y"
@@ -220,12 +219,12 @@ const translations = {
       lattes: "🔗 Currículo Lattes: https://lattes.cnpq.br/1029223661167123",
       orcid: "🔗 ORCID: https://orcid.org/0009-0001-9387-0704"
     },
-    footer: "© 2025 — Todos os direitos reservados. 🚀",
+    footer: "© 2026 — Todos os direitos reservados. 🚀",
     theme: "⚙️ Tema:",
     language: "🌐 Idioma:"
   },
   en: {
-    title: "Juan Daniel Ferreira Ibanez",
+    title: "M. Sc. Juan Daniel Ferreira Ibanez",
     meta_description: "Portfolio of Juan Daniel Ferreira Ibanez, a multidisciplinary developer and researcher.",
     meta_author: "Juan Daniel Ferreira Ibanez",
     images_alt: {
@@ -253,7 +252,7 @@ const translations = {
       contatos: "Contact"
     },
     intro: {
-      name: "Juan Daniel Ferreira Ibanez",
+      name: "M. Sc. Juan Daniel Ferreira Ibanez",
       bio: "Hello, I'm Juan Ibanez! A multidisciplinary programmer based in São Luís - MA. With over 5 years of experience, I found my purpose in creating intelligent solutions that combine technology, efficiency, and innovation. I have expertise in backend, frontend, and system integration, focusing on performance, security, and usability. My passion is transforming complex ideas into functional and scalable applications that make a positive impact.",
       sobre: "I am a creative thinker, problem solver, and lifelong learner, always exploring new technologies and enhancing my skills in programming and software engineering. When I'm not coding, you can find me experimenting with new ideas, studying artificial intelligence, or exploring projects that blend innovation with real-world impact."
     },
@@ -412,9 +411,8 @@ const translations = {
         title: "📖 Crônicas de Yundraw: The War of the Gods — Act I",
         tagline: "In Yundraw, the world is not governed solely by kings, empires, or armies — it is shaped by ancient choices, convenient silences, and systems that learn to feed on what people prefer to forget.",
         summary: [
-          "When forces meant to protect begin shaping lives as disposable resources, four unlikely figures—Alice with scars that forbid forgetting, Bjor whose strength carries more grief than glory, Lucius the mage trying to impose ethics on an unjust logic, and Stefan whose irony hides irreparable losses—are dragged into a conflict that predates themselves.",
-          "Their passage through forests that judge, cities that lie, and swamps that watch becomes a direct confrontation with cults preaching peace while draining essence, nobles masking cruelty with civility, and sages who treat lives as acceptable variables.",
-          "Every choice exacts a real price: there are no clean victories, the past refuses to stay buried, and the future demands payment up front. Crônicas de Yundraw: The War of the Gods — Act I explores who resists without joining the machine and who has the courage to pay to see without looking away. In the end, Yundraw does not ask who deserves to survive — it only asks who is willing to pay the cost of seeing."
+          "Four unlikely figures confront hypocritical cults and cruel nobles as protective forces begin treating lives as disposable.",
+          "Every choice exacts a real cost, and Yundraw asks who is willing to pay to keep seeing without looking away."
         ],
         cta_label: "Buy on Amazon Brazil",
         cta_url: "https://www.amazon.com.br/dp/B0GFG1T37Y"
@@ -442,12 +440,12 @@ const translations = {
       lattes: "🔗 CV Lattes: https://lattes.cnpq.br/1029223661167123",
       orcid: "🔗 ORCID: https://orcid.org/0009-0001-9387-0704"
     },
-    footer: "© 2025 — All rights reserved. 🚀",
+    footer: "© 2026 — All rights reserved. 🚀",
     theme: "⚙️ Theme:",
     language: "🌐 Language:"
   },
   es: {
-    title: "Juan Daniel Ferreira Ibanez",
+    title: "M. Sc. Juan Daniel Ferreira Ibanez",
     meta_description: "Portafolio de Juan Daniel Ferreira Ibanez, desarrollador e investigador multidisciplinario.",
     meta_author: "Juan Daniel Ferreira Ibanez",
     images_alt: {
@@ -475,7 +473,7 @@ const translations = {
       contatos: "Contacto"
     },
     intro: {
-      name: "Juan Daniel Ferreira Ibanez",
+      name: "M. Sc. Juan Daniel Ferreira Ibanez",
       bio: "¡Hola, soy Juan Ibanez! Un programador multidisciplinario que vive en São Luís - MA. Con más de 5 años de experiencia, encontré mi propósito en crear soluciones inteligentes que combinan tecnología, eficiencia e innovación. Tengo experiencia en backend, frontend e integración de sistemas, enfocándome en rendimiento, seguridad y usabilidad. Mi pasión es transformar ideas complejas en aplicaciones funcionales y escalables que generen un impacto positivo.",
       sobre: "Soy un pensador creativo, solucionador de problemas y aprendiz eterno, siempre explorando nuevas tecnologías y mejorando mis habilidades en programación e ingeniería de software. Cuando no estoy programando, puedes encontrarme experimentando con nuevas ideas, estudiando inteligencia artificial o explorando proyectos que combinan innovación con impacto real."
     },
@@ -634,9 +632,8 @@ const translations = {
         title: "📖 Crónicas de Yundraw: La Guerra de los Dioses — Acto I",
         tagline: "En Yundraw, el mundo no está gobernado solo por reyes, imperios o ejércitos — se moldea con decisiones antiguas, silencios convenientes y sistemas que aprenden a alimentarse de lo que la gente prefiere olvidar.",
         summary: [
-          "Cuando las fuerzas que deberían proteger empiezan a tratar vidas como recursos desechables, cuatro figuras improbables — Alice con cicatrices que impiden el olvido, Bjor cuya fuerza arrastra más luto que gloria, Lucius el mago que intenta imponer ética a una lógica injusta, y Stefan cuya ironía esconde pérdidas irreparables — son arrastradas a un conflicto que precede su propia existencia.",
-          "Su travesía por bosques que juzgan, ciudades que mienten y pantanos que observan se transforma en confrontación directa con cultos que predican paz mientras drenan esencia, nobles que ocultan crueldad con civilidad y sabios que tratan vidas como variables aceptables.",
-          "Cada elección cobra un precio real: no hay victorias limpias, el pasado insiste y el futuro exige pagos anticipados. Crónicas de Yundraw: La Guerra de los Dioses — Acto I habla de quién resiste sin convertirse en engranaje y de quién está dispuesto a pagar el costo de ver sin apartar la mirada. Al final, Yundraw no pregunta quién merece sobrevivir; solo pregunta quién está dispuesto a pagar para realmente ver."
+          "Cuatro figuras improbables confrontan cultos hipócritas y nobles crueles cuando las fuerzas que debían proteger convierten vidas en recursos desechables.",
+          "Cada decisión cobra un precio real y Yundraw pregunta quién está dispuesto a pagar para seguir viendo sin desviar la mirada."
         ],
         cta_label: "Comprar en Amazon Brasil",
         cta_url: "https://www.amazon.com.br/dp/B0GFG1T37Y"
@@ -664,7 +661,7 @@ const translations = {
       lattes: "🔗 Currículum Lattes: https://lattes.cnpq.br/1029223661167123",
       orcid: "🔗 ORCID: https://orcid.org/0009-0001-9387-0704"
     },
-    footer: "© 2025 — Todos los derechos reservados. 🚀",
+    footer: "© 2026 — Todos los derechos reservados. 🚀",
     theme: "⚙️ Tema:",
     language: "🌐 Idioma:"
   }
